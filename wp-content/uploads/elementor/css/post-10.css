@@ -1,0 +1,129 @@
+.elementor-10 .elementor-element.elementor-element-49f8169{--display:flex;}.elementor-10 .elementor-element.elementor-element-c6da45b{--display:flex;}.elementor-10 .elementor-element.elementor-element-c6da45b.e-con{--flex-grow:0;--flex-shrink:0;}.elementor-10 .elementor-element.elementor-element-c161b13{width:var( --container-widget-width, 100% );max-width:100%;--container-widget-width:100%;--container-widget-flex-grow:0;}.elementor-10 .elementor-element.elementor-element-c161b13.elementor-element{--align-self:center;--order:99999 /* order end hack */;}.elementor-10 .elementor-element.elementor-element-665a50d{--display:flex;}.elementor-10 .elementor-element.elementor-element-665a50d.e-con{--e-con-transform-translateX:-248px;--e-con-transform-translateY:-40px;--flex-grow:0;--flex-shrink:0;}.elementor-10 .elementor-element.elementor-element-059ad80{width:var( --container-widget-width, 100vw );max-width:100vw;padding:0px 0px 0px 0px;--container-widget-width:100vw;--container-widget-flex-grow:0;}@media(min-width:768px){.elementor-10 .elementor-element.elementor-element-c6da45b{--width:200%;}.elementor-10 .elementor-element.elementor-element-665a50d{--width:125.891%;}}/* Start custom CSS for html, class: .elementor-element-324e680 */@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FCFCFC;
+}
+
+body {
+    background-color: #000830;
+}
+
+#global{
+    color: white;
+    visibility: hidden;
+}
+
+#global:hover{
+    visibility: visible;
+}/* End custom CSS */
+/* Start custom CSS for html, class: .elementor-element-c161b13 */.section-1-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FCFCFC;
+}
+
+.section-1-header h1 {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.section-1-header h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 12px;
+}/* End custom CSS */
+/* Start custom CSS for html, class: .elementor-element-059ad80 */.section-1-content{
+    min-width: 90vw;
+    min-height: 80vh;
+    padding: 24px 0px;
+    transform: translateX(-120px);
+    position: relative;
+    scale: 0.9;
+}
+
+.section-1-content::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 140vw;
+  height: 140vw;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+
+  background: radial-gradient(
+    circle,
+    rgba(90, 145, 255, 0.95) 0%,
+    rgba(90, 145, 255, 0.65) 18%,
+    rgba(90, 145, 255, 0.35) 35%,
+    rgba(90, 145, 255, 0.15) 50%,
+    rgba(90, 145, 255, 0.05) 62%,
+    rgba(90, 145, 255, 0) 75%
+  );
+
+  filter: blur(50px);
+}
+
+.section-1-buttons {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.section-1-button:focus,
+.section-1-button:active,
+.section-1-button:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+
+.section-1-button {
+    transition: all 700ms ease;
+    font-family: "Roboto", sans-serif;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    color: #9E9E9E;
+    font-weight: 600;
+}
+
+.section-1-button.active {
+    border: 1px solid #B0BEFF;
+    padding: 16px 16px;
+    border-radius: 24px;
+    
+    background: rgba(255, 255, 255 , 0.2);
+    color: white;
+}
+
+.section-1-button:hover {
+    cursor: pointer;
+}
+.section-1-preview {
+    margin: 28px 16px;
+    padding: 8px;
+    border: 1px solid #C0C0C0;
+    background: rgba(255, 255, 255, .2);
+    border-radius: 24px;
+}
+
+.section-1-figure {
+    overflow: hidden;
+    border-radius: 24px;
+    height: 80vh;
+    border: 2px solid white;
+    position: relative;
+}
+
+.section-1-image {
+    scale: 1;
+    transform: translateY(-60px);
+}/* End custom CSS */
